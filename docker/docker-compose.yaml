@@ -44,7 +44,7 @@ services:
       - db
       - auth
     ports:
-      - 3000:3000
+      - 3005:3000
 
     restart: unless-stopped
     environment:
